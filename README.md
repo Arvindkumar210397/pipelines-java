@@ -1,6 +1,6 @@
 [![Build Status](https://dev.azure.com/lipsacreativity/ArvindDemoDevops/_apis/build/status/Arvindkumar210397.pipelines-java?branchName=master)](https://dev.azure.com/lipsacreativity/ArvindDemoDevops/_build/latest?definitionId=6&branchName=master)
 
-Hello Arvindkumar!!!
+Hello Arvindkumar
 
 # Contributing
 
