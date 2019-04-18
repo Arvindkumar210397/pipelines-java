@@ -1,2 +1,17 @@
-steps:
- - script: echo hello world
+trigger:
+- master
+- features/*
+
+pr:
+- master
+- features/*
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: 'https://lipsacreativity@dev.azure.com/lipsacreativity/ArvindDemoDevops/_git/ArvindDemoDevops'
+    TargetFolder: 'https://lipsacreativity@dev.azure.com/lipsacreativity/ArvindDemoDevops/_git/Arvind'
+    CleanTargetFolder: true
